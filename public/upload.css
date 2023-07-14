@@ -1,0 +1,34 @@
+body{
+    background:#f4f4e2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+  }
+
+  .title{
+    color:#81583b;
+    margin-left:3rem;
+    margin-top: 3.5rem;;
+    font-size: 2.5rem;
+  }
+  .inputGroup{
+    color:#81583b;
+    padding-top: 2rem;
+    margin-left:3rem;
+    font-size: 1.5rem;
+    font-weight: 1rem;
+      
+  }
+
+  .submit{
+    padding:1rem;
+    font-size: 1.2rem;
+    font-weight: 1rem;
+    margin-top: 3rem;
+  }
+
+
+input::placeholder {
+    font: 1.5rem; 
+}
+input::submit {
+    font: 1.5rem; 
+}

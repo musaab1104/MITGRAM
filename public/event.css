@@ -1,0 +1,62 @@
+* {
+    margin: 1rem;
+    /* padding: 0; */
+  } 
+  
+  body {
+   
+    display: flex;                        /* this layout makes conatiner becomes flexible*/
+    /* overflow: hidden;                     gives better control on layout n prevents item to go out of box */
+    /* align-items: center; */
+    
+    background-color: #141225;
+  }
+
+  .header{
+    color:antiquewhite
+  }
+  
+ 
+  
+   
+
+
+
+
+
+
+
+
+  .infoBox{
+    height: 35rem;
+    width:70rem;
+    background: linear-gradient(164deg, #144e7cfc, #0c3d7d);
+    color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    overflow-y: hidden;
+   
+  }
+
+
+  .comments{
+    height:20rem;
+    width:65rem;
+    color:#141225;
+    background: #0c3d7d;
+    overflow-y: scroll;
+    border-radius:10px ;
+  }
+  .comments h2{
+    color: antiquewhite;
+  }
+
+  .comments div h2{
+    color:#141225;
+  }
+  .comments div{
+    background-color: bisque;
+    justify-content: center;
+    border-radius:10px ;
+
+  }

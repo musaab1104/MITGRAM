@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <h3>MIT - Gram </h3>
+        <h5>One Place for all the events !</h5>
+        <!-- <div class="profile"> -->
+        <a href="/sprofile">
+            <img src="media/img/user (3).png" id="Pin" /></a>
+    </div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    <div class="Card">
+        <div class="listing-card">
+
+            <!-- <div class="imageVideo"> -->
+            <div class="image">
+                <div class="video">
+                    <a href="/cultural">
+                        <button class="button"> <video class="videoplay" preload="none" muted loop="1"
+                                poster="media/img/cul-cov.png">
+                                <source src="media/cultural.mp4" type="video/mp4">
+                            </video>
+                            <div class="submitForm">Cultural</div>
+                        </button> </a>
+
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+        <div class="listing-card">
+            <!-- <div class="imageVideo"> -->
+            <div class="image">
+
+                <div class="video">
+                    <a href="/sports">
+                        <button class="button"><video class="videoplay" preload="none" muted loop="1"
+                                poster="media/img/spo-cov.png">
+                                <source src="media/sport.mp4" type="video/mp4">
+                            </video>
+                            <div class="submitForm">Sport</div>
+                        </button> </a>
+
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+        <div class="listing-card">
+            <div class="image">
+                <div class="video">
+                    <a href="/technical">
+                        <button class="button"><video class="videoplay" preload="none" muted loop="1"
+                                poster="media/img/cul-cov.png">
+                                <source src="media/cultural.mp4" type="video/mp4">
+                            </video>
+                            <div class="submitForm">Technical</div>
+                        </button> </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="listing-card">
+
+            <div class="image">
+                <div class="video">
+                    <a href="/design">
+                        <button class="button"><video class="videoplay" preload="none" muted loop="1"
+                                poster="media/img/spo-cov.png">
+                                <source src="media/sport.mp4" type="video/mp4">
+                            </video>
+                            <div class="submitForm">Design</div>
+                        </button> </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+
+
+
+
+
+    <script>
+
+        let myvideo = document.querySelectorAll(".videoplay");
+
+        for (var i = 0; i < myvideo.length; i++) {
+            myvideo[i].addEventListener("mouseover", function () {
+                this.play();
+            })
+            myvideo[i].addEventListener("mouseleave", function () {
+                this.pause();
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body {
+  font-family: 'Lato', sans-serif;
+  background-color: #141225;
+  overflow-x: hidden;
+} 
+
+
+html{
+scroll-behavior: smooth;
+}
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400|Oswald:400,700');
+
+
+
+.header{
+  
+  background-color: #141225;
+  height: 20rem;
+  position :relative;
+  font-weight:5rem ;
+  margin-top:0;
+ 
+}
+
+
+.header{
+ background-color:   #141225;     /*   #E0E0E2 ; */
+  text-align: center;
+  height:20rem; 
+}
+
+.header h3 {
+   margin: 20px;
+  font-family: "Paytone One";
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  padding-top: 5rem;;
+  margin-top:0px;
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 85px;
+  line-height: 80px;
+  color: #B3005E;
+  text-shadow:0 -2px 1px #202020;
+  letter-spacing: -4px;
+}
+
+.header h5 {
+  margin: 20px;
+ font-family: "Paytone One";
+ color: #202020;
+ text-transform: uppercase;
+ letter-spacing: -2px;
+ padding-top: 5rem;;
+ margin-top:0px;
+ display: block;
+ margin: 11px 0 17px 0;
+ font-size: 30px;
+ line-height: 80px;
+ color: #F9DBBB;
+ text-shadow:0 -2px 1px #202020;
+ letter-spacing: 4px;
+}
+
+.listing-card{
+margin-left: 15rem;
+margin-top: 8rem;
+margin-bottom: 5rem;
+
+}
+
+/* .inFormBackground {
+margin: 0rem 2rem;
+} */
+
+/* .inFormBackground{
+width: 25rem;
+height: 30rem;
+max-width: 320px;                                    
+position: relative;
+} */
+
+.circle {
+width: 10rem;
+height: 10rem;
+position: absolute;
+border-radius: 50%;
+}
+
+/* .circle:first-child {
+left:   20%;                                   
+top: 90%;
+background: linear-gradient(#202020, #c302b5);
+} */
+
+
+.circle:nth-child(2) {
+right: 92%;
+bottom: 85%;
+background: linear-gradient(#ff0060, #c302b5);
+}
+
+.circle:nth-child(3) {
+right: -2%;
+bottom: -5%;
+background: linear-gradient(164deg, #144e7cfc, #1877f2);
+}
+
+
+
+
+/****/
+
+.listing-card {
+
+ 
+  /* padding: 15px 15px 30px; */
+  border-radius: 40px;
+  width: 400px;
+  box-shadow: 0px 0px 8px 0px rgb(218 218 218);
+  float:left;
+  padding-bottom: 0px;
+
+}
+
+.listing-card .video {
+  height: 210px   
+}
+
+.listing-card .video video {
+  width: 100%;
+  height: 100%;
+   /* object-fit: cover  */
+} 
+
+
+
+
+.listing-card .btn-default:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+
+.button{
+background-color: transparent;
+border-style: none;
+cursor: pointer;
+/* position: absolute; */
+color: var(--main-color);
+text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.408);
+/* bottom: 10%;
+left: 50%; */
+/* transform: translate(-50%, -10%); */
+font-size: 2.5rem;
+ z-index: +1;
+text-align: center; 
+padding-bottom: 0;
+}
+
+
+
+.listing-card image{
+
+height: 350px;
+width: 350px;
+}
+
+
+#Pin { 
+height: 50px;
+width: 50px;
+border: 4px solid #fff;
+border-radius: 100%;
+
+right:1rem;
+bottom:16rem;
+/* margin-left: 104px; */
+position:absolute;
+cursor: pointer;
+color: #fff;
+/* line-height: 5.1rem;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
+-ms-transition: .3s;
+transition: .3s; */
+box-shadow: -1px 9px 13px #404040;
+/* margin-top: 0.2rem; */
+
+}
+ 
+/* #Pin:hover {
+margin-top: 20px;} */
+
+.profile{
+align-items: baseline;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+  .listing-card{
+    width :30%;
+    height:20%;
+    margin-left:140px;
+  }
+
+
+
+}
+.card{
+background-color: #202020;
+}
+
+.submitForm {
+width: 45%;
+z-index: 1;
+margin-left: 3px;
+margin-top: 25px;
+color: #080710;
+padding: 12px 0;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;                                
+overflow: hidden;
+border-radius: 5px;
+position: relative;
+background: #fff;
+}
+
+.submitForm::before {
+content: "";
+top: 0%;
+left: -100%;
+z-index: -1;
+width: 100%;
+height: 100%;
+color: #fff;
+border-radius: 5px;
+position: absolute;
+transition: left 0.4s, color 0.4s;       
+background-color: #202020;
+}
+
+.submitForm:hover {
+color: #fff;
+}
+
+.submitForm:hover::before {
+left: 0%;
+}

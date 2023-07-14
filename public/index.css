@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;                        /* this layout makes conatiner becomes flexible*/
+    overflow: hidden;                     /*gives better control on layout n prevents item to go out of box */
+    align-items: center;
+    justify-content: center;
+    background-color: #141225;
+  }
+  
+  .inFormBackground {
+    margin: 0rem 2rem;
+  }
+  
+  .inFormBackground,
+  .inLoginForm {
+    width: 25rem;
+    height: 30rem;
+    max-width: 320px;                                 
+    position: relative;
+  }
+  
+  .circle {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle:first-child {
+    left: -25%;                                   /* specify the horizontal position of a positioned element,no effect on non posi elements*/
+    top: -8%;
+    background: linear-gradient(#ff0060, #c302b5);
+  }
+  
+  .circle:nth-child(2) {
+    right: -28%;
+    bottom: -9%;
+    background: linear-gradient(164deg, #144e7cfc, #1877f2);
+  }
+  
+  .inLoginForm form {
+    top: 50%;
+    left: 50%;
+    width: 16rem;
+    height: 20rem;
+    max-width: 320px;
+    position: absolute;
+    padding: 50px 35px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);                       
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.1);        
+    background-color: rgba(255, 255, 255, 0.13);
+  }
+  
+
+  .inLoginForm .form2 {
+    padding-top: 222px;
+    padding-left: 7px;
+  }
+
+  
+
+  form * {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .title h2{
+    padding-bottom: 15px;
+  }
+  
+  .title h3{
+    padding-top: 3rem;
+    font-size: 25px;
+  }
+  
+  
+  ::placeholder {
+    color: #e5e5e5;
+  }
+  
+  .submitForm {
+    width: 45%;
+    z-index: 1;
+    margin-left: 3px;
+    margin-top: 355px;
+    color: #fff;
+    padding: 25px 120px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;                              
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    background: #202020;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+  .submitForm::before {
+    content: "";
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    transition: left 0.4s, color 0.4s;       
+    background-color: #fff;
+  }
+  
+  .submitForm:hover {
+    color: purple;
+  }
+  
+  .submitForm:hover::before {
+    left: 0%;
+  }
+  /* a{
+  margin-top: 30rem;;
+  margin-right: 20rem;
+  
+  } */

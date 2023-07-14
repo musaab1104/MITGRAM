@@ -1,0 +1,36 @@
+body{
+    background-color:#F5F5DC;
+  }
+  
+    .heading , .info{
+   text-align: center;
+   color:#81583b;
+     
+    }
+  
+    .heading{
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+    }
+    .info{
+      font-size: 1rem;
+      padding-bottom: 4rem;
+  
+    }
+  
+   .border{
+     border: 1rem wave;
+  
+    margin:3rem;
+    /* margin-top: 1rem; */
+    /* padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: -5rem; */
+   }
+  
+  .add{
+    height: 6px;
+    width:6px;
+    margin-left: 65rem;
+    /* margin-top: 10rem; */
+  }
